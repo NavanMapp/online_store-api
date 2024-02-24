@@ -1,0 +1,23 @@
+{
+  "name": "online_store-api",
+  "version": "1.0.0",
+  "description": "Backend nodejs, expressjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NavanMapp/online_store-api.git"
+  },
+  "author": "NavanMapp",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NavanMapp/online_store-api/issues"
+  },
+  "homepage": "https://github.com/NavanMapp/online_store-api#readme",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.18.2"
+  }
+}
