@@ -1,9 +1,10 @@
 require('dotenv').config()
 const express = require('express')
+const router = require('./routes/userRoutes.js')
 const app = express()
 
 
-app.get((req, res, next) => {
+router.get((req, res, next) => {
     console.log('Request received!')
     next()
 })
@@ -19,7 +20,7 @@ app.use((req, res, next) => {
 })
 
 app.use((req, res, next) => {
-    console.log('Response sent successfully!');
+    console.log('Response sent successfully!')
 })
 
 module.exports = app
