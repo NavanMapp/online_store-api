@@ -4,7 +4,7 @@
   "description": "Backend nodejs, expressjs",
   "main": "index.js",
   "scripts": {
-    "test": "npm start"
+    "test": "nodemon start"
   },
   "repository": {
     "type": "git",
